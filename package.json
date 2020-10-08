@@ -1,6 +1,6 @@
 {
   "name": "react-redux-multilingual-translator",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "React Redux Multilingual Translator",
   "main": "lib/index.js",
   "scripts": {
