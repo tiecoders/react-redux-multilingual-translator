@@ -1,7 +1,7 @@
 {
   "name": "react-redux-multilingual-translator",
   "version": "1.0.0",
-  "description": "React React Multilingual Translator",
+  "description": "React Redux Multilingual Translator",
   "main": "lib/index.js",
   "scripts": {
     "prettier": "prettier --single-quote --no-semi 'src/*.js' --write",
