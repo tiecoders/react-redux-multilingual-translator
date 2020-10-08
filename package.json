@@ -1,0 +1,37 @@
+{
+  "name": "react-redux-multilingual-translator",
+  "version": "1.0.0",
+  "description": "React React Multilingual Translator",
+  "main": "lib/index.js",
+  "scripts": {
+    "prettier": "prettier --single-quote --no-semi 'src/*.js' --write",
+    "release": "npm run build && npm publish",
+    "build": "BABEL_ENV=production babel src --out-dir lib",
+    "watch": "BABEL_ENV=production babel --watch src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiecoders/react-redux-multilingual-translator.git"
+  },
+  "keywords": [
+    "react",
+    "translate",
+    "multilingual"
+  ],
+  "author": "Ahmed HANNACHI <ahmed.hannachi@tiecoders.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiecoders/react-redux-multilingual-translator/issues"
+  },
+  "homepage": "https://github.com/tiecoders/react-redux-multilingual-translator#readme",
+  "dependencies": {
+    "prop-types": "^15.5.8"
+  },
+  "peerDependencies": {
+    "react": ">16.3.0",
+    "react-redux": ">4.4.0",
+    "redux": ">3.3.1"
+  },
+  "devDependencies": {
+  }
+}
